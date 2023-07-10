@@ -42,6 +42,7 @@ npm test
 2. Allure report is also enabled but make suer that allure first is installed then run the command `allure serve allure-results` to see the html report in allure service
 
 ### Notes:
+* Tests can be found in tests/football-api
 * The class core/rest_api/request.ts is intended to hide all the details of requests implementationa and improve readability on tests
 * Base URL is read from .env file that is hardcoded for this challenge 
 * The hooks/jestGlobalSetup loads the environment variables using the dotenv library
